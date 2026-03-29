@@ -77,6 +77,7 @@
                     @class([
                         'fi-no-notification-read-ctn' => ! $notification->unread(),
                         'fi-no-notification-unread-ctn' => $notification->unread(),
+                        'fi-no-notification-read-ctn' => ! $notification->unread(),
                     ])
                 >
                     {{ $this->getNotification($notification)->inline() }}
